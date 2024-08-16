@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "chestbuttons2",
+  "version": "${version}",
+  "name": "chestbuttons2",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/chestbuttons2/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "codes.tino.chestbuttons2.client.Chestbuttons2Client"
+    ],
+    "main": [
+      "codes.tino.chestbuttons2.Chestbuttons2"
+    ]
+  },
+  "mixins": [
+    "chestbuttons2.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

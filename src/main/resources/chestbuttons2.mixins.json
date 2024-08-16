@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "codes.tino.chestbuttons2.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "GenericContainerScreenMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
